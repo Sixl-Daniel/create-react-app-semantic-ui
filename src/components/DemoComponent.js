@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Container, Divider, Grid, Header, Image, Menu, Segment } from 'semantic-ui-react';
+import PlaceholderImageParagraph from '../img/paragraph.png';
 
 const ThemingLayout = () => (
   <Container style={{ marginTop: '3em' }}>
@@ -211,7 +212,7 @@ const ThemingLayout = () => (
           <Button>Two</Button>
         </Button.Group>
         <Segment attached>
-          <Image src='/images/wireframe/paragraph.png' />
+          <Image src={PlaceholderImageParagraph} />
         </Segment>
         <Button.Group attached='bottom' widths={2}>
           <Button>One</Button>
